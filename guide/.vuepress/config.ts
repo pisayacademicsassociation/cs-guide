@@ -29,7 +29,16 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		sidebarDepth: 3,
 		editLinks: true,
 		lastUpdated: true,
-		navbar: [],
+		navbar: [
+			{
+				text: 'Java Guide (CS4)',
+				link: '/cs4/',
+			},
+			{
+				text: 'Python Guide (CS5)',
+				link: '/cs5/',
+			}
+		],
 		themePlugins: {
 			mediumZoom: false
 		}
