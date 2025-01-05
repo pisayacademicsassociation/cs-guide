@@ -9,7 +9,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	templateDev: path.join(__dirname, 'templates', 'index.dev.html'),
 	templateSSR: path.join(__dirname, 'templates', 'index.ssr.html'),
 	lang: 'en-US',
-	title: 'Java Guide',
+	title: 'CS Guide',
 	description: 'I was bored.',
 	base: '/cs-guide/',
 	head: [
@@ -32,11 +32,11 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		navbar: [
 			{
 				text: 'Java Guide (CS4)',
-				link: '/cs4/',
+				link: '/cs-guide/cs4/',
 			},
 			{
 				text: 'Python Guide (CS5)',
-				link: '/cs5/',
+				link: '/cs-guide/cs5/',
 			}
 		],
 		themePlugins: {
