@@ -17,6 +17,12 @@ export default {
 			]
 		},
 		{
+			text: 'Introduction',
+			children: [
+				'/cs4/'
+			]
+		},
+		{
 			text: 'Quarter 1',
 			children: [
 				'/cs4/1/variables',
@@ -57,6 +63,12 @@ export default {
 			children: [
 				'/',
 				'/whats-new'
+			]
+		},
+		{
+			text: 'Introduction',
+			children: [
+				'/cs5/'
 			]
 		},
 		{
