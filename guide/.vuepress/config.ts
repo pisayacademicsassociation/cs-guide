@@ -32,11 +32,11 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		navbar: [
 			{
 				text: 'Java Guide (CS4)',
-				link: '/cs-guide/cs4/',
+				link: '/cs4/',
 			},
 			{
 				text: 'Python Guide (CS5)',
-				link: '/cs-guide/cs5/',
+				link: '/cs5/',
 			}
 		],
 		themePlugins: {
