@@ -1,5 +1,5 @@
 {
-    "name": "java-guide",
+    "name": "cs-guide",
     "description": "desc",
     "version": "2.0.0",
     "private": true,
@@ -7,7 +7,6 @@
         "lint": "eslint . --ext js,md,vue",
         "dev": "vuepress dev guide",
         "build": "vuepress build guide",
-		"serve": "cd C:/Users/reodi/OneDrive/Desktop/projects/java-guide/guide/.vuepress/dist & serve"
     },
     "repository": "https://github.com/botcoder69/java-guide.git",
     "keywords": [],
