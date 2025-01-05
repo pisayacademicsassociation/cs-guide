@@ -13,7 +13,7 @@
     "author": "Me!",
     "contributors": [],
     "license": "MIT",
-    "homepage": "https://botcoder69.github.io/java-guide",
+    "homepage": "https://pisayacademicsassociation.github.io/cs-guide",
     "devDependencies": {
         "@babel/eslint-parser": "^7.17.0",
         "@vuepress/plugin-docsearch": "^2.0.0-beta.24",
