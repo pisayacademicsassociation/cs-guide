@@ -8,7 +8,7 @@ export default {
 			]
 		}
 	],
-	'/cs4': [
+	'/cs-guide/cs4': [
 		{
 			text: 'Quarter 1',
 			children: [
@@ -44,7 +44,7 @@ export default {
 			]
 		}
 	],
-	'/cs5': [
+	'/cs-guide/cs5': [
 		{
 			text: `Quarter 2`,
 			children: [
