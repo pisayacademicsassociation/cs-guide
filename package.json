@@ -8,7 +8,7 @@
         "dev": "vuepress dev guide",
         "build": "vuepress build guide"
     },
-    "repository": "https://github.com/botcoder69/java-guide.git",
+    "repository": "https://github.com/botcoder69/cs-guide.git",
     "keywords": [],
     "author": "Me!",
     "contributors": [],
@@ -18,7 +18,6 @@
         "@babel/eslint-parser": "^7.17.0",
         "@vuepress/plugin-docsearch": "^2.0.0-beta.24",
         "@vuepress/plugin-google-analytics": "^2.0.0-beta.24",
-        "@vuepress/bundler-webpack": "^2.0.0-beta.24",
         "eslint": "^7.18.0",
         "eslint-config-sora": "^3.1.0",
         "eslint-plugin-markdown": "^1.0.0",
