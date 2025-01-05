@@ -6,7 +6,7 @@
     "scripts": {
         "lint": "eslint . --ext js,md,vue",
         "dev": "vuepress dev guide",
-        "build": "vuepress build guide",
+        "build": "vuepress build guide"
     },
     "repository": "https://github.com/botcoder69/java-guide.git",
     "keywords": [],
