@@ -8,7 +8,7 @@ export default {
 			]
 		}
 	],
-	'/cs4': [
+	'/cs4/': [
 		{
 			text: 'Home',
 			children: [
@@ -51,7 +51,7 @@ export default {
 			]
 		}
 	],
-	'/cs5': [
+	'/cs5/': [
 		{
 			text: 'Home',
 			children: [
