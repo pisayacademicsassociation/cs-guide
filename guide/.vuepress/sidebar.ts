@@ -10,6 +10,13 @@ export default {
 	],
 	'/cs-guide/cs4': [
 		{
+			text: 'Home',
+			children: [
+				'/',
+				'/whats-new'
+			]
+		},
+		{
 			text: 'Quarter 1',
 			children: [
 				'/cs4/1/variables',
@@ -45,6 +52,13 @@ export default {
 		}
 	],
 	'/cs-guide/cs5': [
+		{
+			text: 'Home',
+			children: [
+				'/',
+				'/whats-new'
+			]
+		},
 		{
 			text: `Quarter 2`,
 			children: [
