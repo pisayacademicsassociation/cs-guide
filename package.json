@@ -27,6 +27,7 @@
     },
     "dependencies": {
         "@discord-message-components/vue": "^0.2.1",
+        "@vscode/markdown-it-katex": "^1.1.1",
         "katex": "^0.16.20",
         "markdown-it-katex": "^2.0.3",
         "serve": "^14.2.1"
