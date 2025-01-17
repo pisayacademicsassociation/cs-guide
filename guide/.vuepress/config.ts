@@ -20,7 +20,8 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		['meta', { name: 'theme-color', content: '#3eaf7c' }],
 		['meta', { property: 'og:type', content: 'website' }],
 		['meta', { property: 'og:locale', content: 'en_US' }],
-		['meta', { property: 'og:image', content: '/cs-guide/meta-image.png' }]
+		['meta', { property: 'og:image', content: '/cs-guide/meta-image.png' }],
+		['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.20/dist/katex.min.css' }]
 	],
 	theme: path.join(__dirname, 'theme', 'index.ts'),
 	themeConfig: {
