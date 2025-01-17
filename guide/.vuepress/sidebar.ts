@@ -1,7 +1,10 @@
+import { SidebarConfigObject } from "@vuepress/theme-default"
+
 export default {
 	'/': [
 		{
 			text: 'Home',
+			link: '/',
 			children: [
 				'/',
 				'/whats-new'
@@ -11,6 +14,7 @@ export default {
 	'/cs4/': [
 		{
 			text: 'Home',
+			link: '/',
 			children: [
 				'/',
 				'/whats-new'
@@ -18,36 +22,40 @@ export default {
 		},
 		{
 			text: 'Introduction',
+			link: '/cs4',
 			children: [
-				'/cs4/'
+				'/'
 			]
 		},
 		{
 			text: 'Quarter 1',
+			link: '/cs4/1',
 			children: [
-				'/cs4/1/variables',
-				'/cs4/1/datatypes',
-				'/cs4/1/input-output',
-				'/cs4/1/control-structures',
-				'/cs4/1/arrays'
+				'/variables',
+				'/datatypes',
+				'/input-output',
+				'/control-structures',
+				'/arrays'
 			]
 		},
 		{
 			text: 'Quarter 2',
+			link: '/cs4/2',
 			children: [
-				'/cs4/2/classes-objects-packages',
-				'/cs4/2/classes-extension',
-				'/cs4/2/packages-extension',
-				'/cs4/2/oop',
-				'/cs4/2/gui'
+				'/classes-objects-packages',
+				'/classes-extension',
+				'/packages-extension',
+				'/oop',
+				'/gui'
 			]
 		},
 		{
 			text: `Quarter 3`,
+			link: '/cs4/3',
 			children: [
-				'/cs4/3/gui-events',
-				'/cs4/3/dialogs-and-messages',
-				'/cs4/3/string-and-string-buffer'
+				'/gui-events',
+				'/dialogs-and-messages',
+				'/string-and-string-buffer'
 			]
 		},
 		{
@@ -60,6 +68,7 @@ export default {
 	'/cs5/': [
 		{
 			text: 'Home',
+			link: '/',
 			children: [
 				'/',
 				'/whats-new'
@@ -67,15 +76,17 @@ export default {
 		},
 		{
 			text: 'Introduction',
+			link: '/cs5/',
 			children: [
-				'/cs5/'
+				'/'
 			]
 		},
 		{
 			text: `Quarter 2`,
+			link: '/cs5/2/',
 			children: [
-				'/cs5/2/sorting-algorithms'
+				'/sorting-algorithms'
 			]
 		}
 	]
-};
+} as SidebarConfigObject;
