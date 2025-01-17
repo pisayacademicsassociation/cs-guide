@@ -45,9 +45,11 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		}
 	},
 	plugins: [],
-//	extendsMarkdown: md => {
-//		md.use(MarkdownItKatex);
-//	}
+	extendsMarkdown: md => {
+		const MarkdownItKatex = require('markdown-it-katex');
+
+		md.use(MarkdownItKatex, { throwOnError: true, displayMode: true });
+	}
 });
 
 const { ALGOLIA_DOCSEARCH_API_KEY, ALGOLIA_DOCSEARCH_APP_ID, GOOGLE_ANALYTICS_ID, NODE_ENV } = process.env;
