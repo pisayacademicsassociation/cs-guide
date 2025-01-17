@@ -3,7 +3,7 @@ import path from 'path';
 import { defineUserConfig } from 'vuepress-vite';
 import type { DefaultThemeOptions, ViteBundlerOptions } from 'vuepress-vite';
 import sidebar from './sidebar';
-import MarkdownItKatex from '@vscode/markdown-it-katex';
+import MarkdownItKatex from 'markdown-it-katex';
 
 const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	bundler: '@vuepress/vite',
