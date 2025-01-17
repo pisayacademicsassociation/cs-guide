@@ -3,7 +3,7 @@ import path from 'path';
 import { defineUserConfig } from 'vuepress-vite';
 import type { DefaultThemeOptions, ViteBundlerOptions } from 'vuepress-vite';
 import sidebar from './sidebar';
-import MarkdownItKatex from 'markdown-it-katex';
+import katexPlugin from './plugins/katex';
 
 const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	bundler: '@vuepress/vite',
@@ -45,10 +45,9 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 			mediumZoom: false
 		}
 	},
-	plugins: [],
-	extendsMarkdown: md => {
-		md.use(MarkdownItKatex);
-	}
+	plugins: [
+		katexPlugin
+	]
 });
 
 export default config;
