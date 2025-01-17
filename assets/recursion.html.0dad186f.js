@@ -1,0 +1,1 @@
+const e={key:"v-7de8bc92",path:"/cs5/2/recursion.html",title:"Recursion",lang:"en-US",frontmatter:{},excerpt:"",headers:[],filePathRelative:"cs5/2/recursion.md",git:{updatedTime:1737112625e3}};export{e as data};

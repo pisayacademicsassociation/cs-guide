@@ -1,0 +1,1 @@
+const t={key:"v-519a006d",path:"/cs5/3/growth-of-functions.html",title:"Growth of Functions",lang:"en-US",frontmatter:{},excerpt:"",headers:[],filePathRelative:"cs5/3/growth-of-functions.md",git:{updatedTime:1737112625e3}};export{t as data};
