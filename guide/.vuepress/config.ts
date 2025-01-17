@@ -3,7 +3,6 @@ import path from 'path';
 import { defineUserConfig } from 'vuepress-vite';
 import type { DefaultThemeOptions, ViteBundlerOptions } from 'vuepress-vite';
 import sidebar from './sidebar';
-import MarkdownItKatex from 'markdown-it-katex';
 
 const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	bundler: '@vuepress/vite',
@@ -46,9 +45,9 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		}
 	},
 	plugins: [],
-	extendsMarkdown: md => {
-		md.use(MarkdownItKatex);
-	}
+//	extendsMarkdown: md => {
+//		md.use(MarkdownItKatex);
+//	}
 });
 
 const { ALGOLIA_DOCSEARCH_API_KEY, ALGOLIA_DOCSEARCH_APP_ID, GOOGLE_ANALYTICS_ID, NODE_ENV } = process.env;
