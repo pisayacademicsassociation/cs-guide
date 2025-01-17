@@ -7,7 +7,7 @@ export default {
 			link: '/',
 			children: [
 				'/',
-				'/whats-new'
+				'/whats-new.html'
 			]
 		}
 	],
@@ -17,7 +17,7 @@ export default {
 			link: '/',
 			children: [
 				'/',
-				'/whats-new'
+				'/whats-new.html'
 			]
 		},
 		{
@@ -31,37 +31,37 @@ export default {
 			text: 'Quarter 1',
 			link: '/cs4/1',
 			children: [
-				'/variables',
-				'/datatypes',
-				'/input-output',
-				'/control-structures',
-				'/arrays'
+				'/variables.html',
+				'/datatypes.html',
+				'/input-output.html',
+				'/control-structures.html',
+				'/arrays.html'
 			]
 		},
 		{
 			text: 'Quarter 2',
 			link: '/cs4/2',
 			children: [
-				'/classes-objects-packages',
-				'/classes-extension',
-				'/packages-extension',
-				'/oop',
-				'/gui'
+				'/classes-objects-packages.html',
+				'/classes-extension.html',
+				'/packages-extension.html',
+				'/oop.html',
+				'/gui.html'
 			]
 		},
 		{
 			text: `Quarter 3`,
 			link: '/cs4/3',
 			children: [
-				'/gui-events',
-				'/dialogs-and-messages',
-				'/string-and-string-buffer'
+				'/gui-events.html',
+				'/dialogs-and-messages.html',
+				'/string-and-string-buffer.html'
 			]
 		},
 		{
 			text: `Additional Information`,
 			children: [
-				'/additional-information/notation'
+				'/additional-information/notation.html'
 			]
 		}
 	],
@@ -71,7 +71,7 @@ export default {
 			link: '/',
 			children: [
 				'/',
-				'/whats-new'
+				'/whats-new.html'
 			]
 		},
 		{
@@ -85,7 +85,7 @@ export default {
 			text: `Quarter 2`,
 			link: '/cs5/2/',
 			children: [
-				'/sorting-algorithms'
+				'/sorting-algorithms.html'
 			]
 		}
 	]
