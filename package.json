@@ -6,9 +6,10 @@
     "scripts": {
         "lint": "eslint . --ext js,md,vue",
         "dev": "vuepress dev guide",
-        "build": "vuepress build guide"
+        "build": "vuepress build guide",
+        "serve": "npm run build & cd ./guide/.vuepress/dist & serve"
     },
-    "repository": "https://github.com/botcoder69/cs-guide.git",
+    "repository": "https://github.com/pisayacademicsassociation/cs-guide.git",
     "keywords": [],
     "author": "Me!",
     "contributors": [],
@@ -26,6 +27,8 @@
     },
     "dependencies": {
         "@discord-message-components/vue": "^0.2.1",
+        "katex": "^0.16.20",
+        "markdown-it-katex": "^2.0.3",
         "serve": "^14.2.1"
     }
 }
