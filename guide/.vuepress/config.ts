@@ -47,7 +47,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	},
 	plugins: [],
 	extendsMarkdown: md => {
-		md.use(MarkdownItKatex, { throwOnError: true, displayMode: true });
+		md.use(MarkdownItKatex);
 	}
 });
 
