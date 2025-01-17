@@ -46,7 +46,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	},
 	plugins: [],
 	extendsMarkdown: md => {
-		const MarkdownItKatex = require('markdown-it-katex');
+		const MarkdownItKatex = require('@vscode/markdown-it-katex');
 
 		md.use(MarkdownItKatex, { throwOnError: true, displayMode: true });
 	}
