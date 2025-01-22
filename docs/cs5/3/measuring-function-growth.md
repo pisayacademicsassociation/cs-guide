@@ -447,7 +447,7 @@ We create permutations on the remaining elements, combining every single permuta
 
 If you still don't get the algorithm's concept, perhaps a little bit of visual aids can help:
 
-<iframe width="640" height="360" class="center" src="https://streamable.com/cmoifz?autoplay=0" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
+<iframe width="640" height="360" class="center" src="https://streamable.com/e/cmoifz?autoplay=0" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
 
 Now that you get how the algorithm works, it's time to explain *why* it's $O(n!)$
 
