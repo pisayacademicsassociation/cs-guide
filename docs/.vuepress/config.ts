@@ -43,7 +43,18 @@ export default defineUserConfig({
 		}
 	}),
 
-	bundler: viteBundler(),
+	bundler: viteBundler({
+		viteOptions: {
+			build: {
+				rollupOptions: {
+					external: [
+						"/cs-guide/fib.mp4",
+						"/cs-guide/permutations.mp4"
+					]
+				}
+			}
+		}
+	}),
 
 	plugins: [
 		markdownMathPlugin({
