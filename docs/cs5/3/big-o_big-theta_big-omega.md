@@ -151,3 +151,5 @@ From this, we know that $f(x)$ should obviously be greater than or equal to $g(x
 Noting this and our limit definition, we can say that:
 
 $$\text{If } \lim_{x\to+\infty} \frac{f(x)}{g(x)} \geq 1 \text{, then the function } \Omega(g(x)) \text{ can be considered a lower bound for } f(x)$$
+
+Just like before, this limit also fits our requirements, as if it's equal to $1$, it would indicate that $f(x)$ and $g(x)$ grow at the same rate as $x \to \infty$. If it's greater than $1$ or $+\infty$, we know that the denominator: $g(x)$ grows slower than the numerator: $f(x)$, thus, allowing it to be considered as a **lower bound**.
