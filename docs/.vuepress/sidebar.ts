@@ -76,7 +76,8 @@ export const sidebar: SidebarOptions = {
 			children: [
 				"/cs5/3/dynamic-programming",
 				"/cs5/3/growth-of-functions",
-				"/cs5/3/measuring-function-growth"
+				"/cs5/3/big-o_big-theta_big-omega",
+				"/cs5/3/measuring-algorithm-growth"
 			]
 		},
 		{
