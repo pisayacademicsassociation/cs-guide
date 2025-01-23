@@ -1,10 +1,4 @@
-# Measuring Function Growth (Level 2)
-
-::: tip
-This is a "Level 2" topic, which means it is either: a topic mentioned, but not fully discussed, or a topic that extends upon previous knowledge, without actually being in the curriculum. This is here to serve as extra reading, and can be skipped without having any effect on the normal topics.
-
-Before you proceed to this topic, it is heavily suggested that you read [Growth of Functions](./growth-of-functions.md) first, as this topic will require you to have a proper and working understanding of it.
-:::
+# Measuring Function Growth
 
 ## Introduction
 
