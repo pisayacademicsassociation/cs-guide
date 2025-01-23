@@ -1,4 +1,10 @@
-# Measuring Function Growth
+# Measuring Algorithm Growth
+
+::: tip
+This is a "Level 2" topic, which means it is either: a topic mentioned, but not fully discussed, or a topic that extends upon previous knowledge, without actually being in the curriculum. This is here to serve as extra reading, and can be skipped without having any effect on the normal topics.
+
+Before you proceed to this topic, it is heavily suggested that you read [Growth of Functions](./growth-of-functions.md) first, as this topic will require you to have a proper and working understanding of it.
+:::
 
 ## Introduction
 
@@ -462,5 +468,3 @@ However, for this function, we will focus on it's alternate definition, which is
 $$n! = n \times (n - 1)!$$
 
 Our array permutation function does the exact same thing! We start with a "focus" ($n$), then generate all possible permutations without the focus ($n - 1$), adding the focus as our start after, which would be $n \times (n - 1)!$, the same as the factorial definition!
-
-<!-- brute force solutions, backtracking, maybe ChatGPT can give better example -->
