@@ -14,6 +14,17 @@ In the previous topic, we learned about the growth of functions. However, we sti
 
 Here, our input size is denoted as $n$.
 
+### Table of Contents
+- [Introduction](#introduction)
+	- [Table of Contents](#table-of-contents)
+- [Constant time functions: $O(1)$](#constant-time-functions)
+- [Logarithmic time functions: $O(log~n)$](#logarithmic-time-functions)
+- [Linear time functions: $O(n)$](#linear-time-functions)
+- [Linearithmic time functions: $O(n~log~n)$](#linearithmic-time-functions)
+- [Polynomial time functions: $O(n^x$)](#polynomial-time-functions-)
+- [Exponential time functions: $O(x^n)$](#exponential-time-functions)
+- [Factorial time functions: $O(n!)$](#factorial-time-functions)
+
 ## Constant time functions: $O(1)$
 
 In constant time, or $O(1)$, the function's time complexity remains the same **regardless** of the input size. For instance, let us take a look at the function below:

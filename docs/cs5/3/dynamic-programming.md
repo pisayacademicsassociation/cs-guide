@@ -14,6 +14,13 @@ As I've mentioned above, Dynamic Programming involves **simplifying a complex pr
 
 This is where [Recursion](../2/recursion.md) comes in. In our discussion on Recursion, we explained that it is an occurence that happens when a process depends on a simpler or previous version of itself. Here, our "smaller subproblems" will be the base and recursive case, which we will optimize.
 
+### Table of Contents
+- [Introduction](#introduction)
+- [Naive Recursion](#naive-recursion)
+- [Top-Down (Memoization)](#top-down-memoization)
+- [Bottom-up (Tabulation)](#bottom-up-tabulation)
+- [Constant-space Bottom Up (Constant-space Tabulation)](#constant-space-bottom-up-constant-space-tabulation)
+
 ## Problem
 
 For this topic, we will be using the **Fibonacci Sequence** as the problem to be solved, thanks to it's relatively easy complexity in the topic of Dynamic Programming.

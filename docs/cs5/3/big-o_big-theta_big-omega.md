@@ -8,6 +8,15 @@ In the previous lesson, we introduced to you the concept of function growth. In 
 
 In CS, **Big $O$**, **Big $\Theta$**, and **Big $\Omega$** all represents the worst, average and best time complexity of an algorithm, respectively. Here, we will have two functions: $f(x)$, our function to estimate, and $g(x)$, the "bound" on the growth rate of $f(x)$. Each "Big X" has it's own specific bounds and ways of how $f(x)$ should behave relative to $g(x)$ as $x \to \infty$.
 
+### Table of Contents
+
+- [Introduction](#introduction)
+	- [Table of Contents](#table-of-contents)
+- [Return to Limits](#return-to-limits)
+- [Big O notation](#big-o-notation)
+- [Big Θ notation](#big-θ-notation)
+- [Big Ω notation](#big-ω-notation)
+
 ## Return to Limits
 
 See what I did there? "**as $x \to \infty$**". To better understand **how** $f(x)$ behaves relative to $g(x)$, we will be returning to the concept of limits.
@@ -59,7 +68,7 @@ $$\lim_{x\to+\infty} \frac{x^2+4x+16}{x^2} = 1$$
 
 Since it's $1$, the growth of $f(x)$ relative to $g(x)$ as $x \to \infty$ is like $g(x)$.
 
-## Big $O$ notation
+## Big O notation
 
 Okay, back to the topic at hand. Big O represents the worst-case time complexity of an algorithm, where $f(x)$ is our algorithm, and $g(x)$ is our "upper bound" (this will be important later!). From our example above, it's quite evident *why* we don't include other "lower" constants in Big O notation.
 
@@ -96,7 +105,7 @@ This limit also fits our requirements, as if it's equal to $1$, it would indicat
 
 I suggest however that you'd use the proof instead (since it might be asked for). The limit definition is just a simpler way to think about this. 
 
-## Big $\Theta$ notation
+## Big Θ notation
 
 Big $\Theta$, or Big Theta, represents the average-case time complexity of an algorithm, where $f(x)$ is our algorithm, and $g(x)$ is our "tight bound".
 
@@ -127,7 +136,7 @@ $$\text{If } \lim_{x\to+\infty} \frac{f(x)}{g(x)} = L \text{, where } L > 0 \tex
 Since Big $\Theta$ is a **tight bound**, any function $g(x)$ that is considered as a **tight bound** for $f(x)$ is also a **possible** **upper bound** (Big $O$) and **lower bound** (Big $\Omega$). 
 :::
 
-## Big $\Omega$ notation
+## Big Ω notation
 
 Big $\Omega$, or Big Omega, represents the best-case time complexity of an algorithm, where $f(x)$ is our algorithm, and $g(x)$ is our "lower bound". This is basically the opposite of Big O. Here, we wan't $g(x)$ to be lower than $f(x)$, since $g(x)$ is our **lower bound**.
 
