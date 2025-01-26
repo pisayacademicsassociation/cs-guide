@@ -11,7 +11,8 @@ export const sidebar: SidebarOptions = {
 		{
 			text: `Additional Information`,
 			children: [
-				"/notation"
+				"/notation",
+				"/notes"
 			]
 		}
 	],
@@ -53,7 +54,8 @@ export const sidebar: SidebarOptions = {
 		{
 			text: `Additional Information`,
 			children: [
-				"/notation"
+				"/notation",
+				"/notes"
 			]
 		}
 	],
@@ -83,7 +85,8 @@ export const sidebar: SidebarOptions = {
 		{
 			text: `Additional Information`,
 			children: [
-				"/notation"
+				"/notation",
+				"/notes"
 			]
 		}
 	]

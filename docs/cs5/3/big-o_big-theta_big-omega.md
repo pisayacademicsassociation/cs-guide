@@ -33,7 +33,9 @@ To put it simply, we are trying to evaluate the growth of $f(x)$ relative to $g(
 
 $$\lim_{x\to+\infty} \frac{f(x)}{g(x)}$$
 
-For this, we need a limit theorem too, namely:
+Here, we compare the growth of $f(x)$ to $g(x)$ as they approach $\infty$. This works because, as $x \to \infty$, the fastest growing term dominates over the others, making the lower terms obsolete as they approach $\infty$.
+
+To explain this further, we need a limit theorem too, namely:
 
 $$\lim_{x\to+\infty} \frac{1}{x^r} = 0 \hspace{1em} \text{for} ~r \in Z^+$$
 
@@ -162,3 +164,11 @@ Noting this and our limit definition, we can say that:
 $$\text{If } \lim_{x\to+\infty} \frac{f(x)}{g(x)} \geq 1 \text{, then the function } \Omega(g(x)) \text{ can be considered a lower bound for } f(x)$$
 
 Just like before, this limit also fits our requirements, as if it's equal to $1$, it would indicate that $f(x)$ and $g(x)$ grow at the same rate as $x \to \infty$. If it's greater than $1$ or $+\infty$, we know that the denominator: $g(x)$ grows slower than the numerator: $f(x)$, thus, allowing it to be considered as a **lower bound**.
+
+## Why ∈?
+
+If you remembered sets from Mathematics, the symbol $\in$ means that an element is part of a set. What set? The set of functions with that "complexity".
+
+For example, let's take our function from before: $f(x) = x^2+4x+16$. Remember that Big O means the **upper bound** on the function. Since our function has a growth of $x^2$ (largest growing term), it's included in the set of $O(n^2)$, because $n^2$ can be an **upper bound** on the function $f(x)$. Therefore, we can say that $x^2+4x+16 \in O(n^2)$.
+
+What about $O(n) ∈ O(n^2)$? Well, this simply means if the set of functions whose upper bound is $O(n)$ can have an **upper bound** of $O(n^2)$. The answer? Yes, because $O(n^2)$ is an **upper bound**. If a function's **upper bound** is already $O(n)$, then anything greater than or equal to the growth of $O(n)$ can be an upper bound, since the only requirement is that it must not **exceed** it. If a function has an upper bound of $O(n)$, it most certainly can have an $O(n^2)$ one, because it's growth can't exceed $O(n)$ already, what more about $O(n^2)$?
