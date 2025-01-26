@@ -16,6 +16,7 @@ In CS, **Big $O$**, **Big $\Theta$**, and **Big $\Omega$** all represents the wo
 - [Big O notation](#big-o-notation)
 - [Big Θ notation](#big-θ-notation)
 - [Big Ω notation](#big-ω-notation)
+- [Why ∈](#why-∈)
 
 ## Return to Limits
 
