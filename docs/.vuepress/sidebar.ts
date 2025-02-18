@@ -76,10 +76,20 @@ export const sidebar: SidebarOptions = {
 		{
 			text: `Quarter 3`,
 			children: [
-				"/cs5/3/dynamic-programming",
+				{
+					text: "Dynamic Programming (Lvl 2)",
+					link: "/cs5/3/dynamic-programming"
+				},
 				"/cs5/3/growth-of-functions",
 				"/cs5/3/big-o_big-theta_big-omega",
-				"/cs5/3/measuring-algorithm-growth"
+				{
+					text: "Measuring Algorithm Growth (Lvl 2)",
+					link: "/cs5/3/measuring-algorithm-growth"
+				},
+				{
+					text: "Stack and Queue",
+					link: "/cs5/3/adt-stack-and-queue"
+				}
 			]
 		},
 		{

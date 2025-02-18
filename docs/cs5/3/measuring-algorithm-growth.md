@@ -143,7 +143,7 @@ def divide_and_sort(array):
 	return merge(divide_and_sort(array[:mid]), divide_and_sort(array[mid:]))
 ```
 
-This first part checks if the array's length is at least `1`, and if it is, it means the array has been split to a single element, then returns it.
+This first part checks if the array's length is at least `1`, and if it is, it means the array has been split to a single element, where it returns the single element array.
 
 ```py
 def divide_and_sort(array):
@@ -155,7 +155,7 @@ def divide_and_sort(array):
 	return merge(divide_and_sort(array[:mid]), divide_and_sort(array[mid:]))
 ```
 
-If the array has not been split down to a single element, we get the mid point of the array and split the array from there.
+If the array has not been split down to a single element, we get the midpoint of the array and split the array from there.
 
 ```py
 def divide_and_sort(array):

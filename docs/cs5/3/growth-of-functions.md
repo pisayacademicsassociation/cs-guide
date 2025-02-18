@@ -9,8 +9,10 @@ In CS, the same concept applies to functions. We don't want our functions to tak
 The growth of functions, most commonly denoted in Big O notation, describes the **worst** time complexity a function takes, given a certain input size.
 
 <img src="./images/big_o.png" class="center x75" alt="The Big O notation" />
-
-*Complexity Growth Illustration.* Retrieved from bigocheatsheet: [https://www.bigocheatsheet.com/](https://www.bigocheatsheet.com/)
+<center>
+	<br>
+	<i>Complexity Growth Illustration.</i> Retrieved from bigocheatsheet: <a href=https://www.bigocheatsheet.com/>https://www.bigocheatsheet.com/</a>
+</center>
 
 ## How does it work?
 
