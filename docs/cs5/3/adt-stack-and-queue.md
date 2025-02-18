@@ -108,7 +108,7 @@ When we take from or insert to the rear, we are taking the **last** element adde
 
 ::: details You can click here for the Python implementation of the Deque ADT.
 ```py
-class Queue:
+class Deque:
 	def __init__(self):
 		self.items = []
 	def add_front(self, item):
