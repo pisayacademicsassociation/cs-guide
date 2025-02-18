@@ -38,7 +38,7 @@ Here, we compare the growth of $f(x)$ to $g(x)$ as they approach $\infty$. This 
 
 To explain this further, we need a limit theorem too, namely:
 
-$$\lim_{x\to+\infty} \frac{1}{x^r} = 0 \hspace{1em} \text{for} ~r \in Z^+$$
+$$\lim_{x\to+\infty} \frac{1}{x^r} = 0 \hspace{1em} \text{for} ~r \geq 1$$
 
 Now that we have that aside, all we have to do is, well, evaluate the limit.
 
