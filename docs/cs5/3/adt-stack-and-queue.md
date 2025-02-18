@@ -10,6 +10,7 @@ In this section, we will be tackling two abstract data types: a **Stack** and a 
 	- [Table of Contents](#table-of-contents)
 - [What are ADTs?](#what-are-adts)
 - [Stack](#stack)
+	- [Stack Applications: Balanced Parentheses](#stack-applications-balanced-parentheses)
 - [Queue](#queue)
 - [Deque](#deque)
 
@@ -61,6 +62,54 @@ class Stack:
 	def size(self):
 		return len(self.items)
 ```
+:::
+
+### Stack Applications: Balanced Parentheses
+
+A useful application of the Stack ADT is checking whether or not a given string parentheses are "balanced", meaning all parentheses properly close each other.
+
+For practice, try to code (or imagine) how a program can use Stacks to check whether or not a given string of parentheses are balanced.
+
+Note that hints and a solution are given below. However, it is **highly** encouraged for you to try and think of a solution *first* before opening them though!
+
+::: details Hint 1
+We know that parentheses can *contain* inner parentheses, and that these inner parentheses **must** close before the outer parentheses close. 
+:::
+::: details Hint 2
+After evaluating the entire string, all parentheses should have been closed by then.
+:::
+::: details Hint 3
+There should be an opening parentheses **first** before it can be closed!
+:::
+::: details Click to open the solution! It is **highly** encouraged for you to think of a solution *first* by opening the hints before opening this though!
+From Hint 1, a Stack is practical for this problem since the **most recent** opening parentheses **must** be **closed** before the preceeding ones.
+
+From Hint 2, we can check if the Stack has no more items left. If there are, that means that there are unclosed parentheses at the end of the string, which still makes it unbalanced.
+
+From Hint 3, we check the Stack if there is an opening parentheses that is closed by the current closing parentheses. If there are none, that means that there are extra closing parentheses.
+
+Here is the Python code for the solution:
+```py
+def balanced_parentheses(string):
+	stack = Stack()
+
+	for char in string:
+		if char == "(":
+			stack.push("(")
+
+			continue
+
+		if stack.isEmpty():
+			return False
+
+		stack.pop()
+
+	return stack.isEmpty()
+```
+
+We iterate over the characters in the string. If the character is an opening parentheses, we push it to the stack. If not, it must be a closing parentheses, so we check if there is an opening parentheses in the stack for it to close. If there is none (`stack.isEmpty()`), we return `False`, since there is an extra closing parentheses. Otherwise, we pop from the stack, indicating a pair of parentheses being closed. 
+
+At the end, we check if the stack is empty again. If it's not, then there are opening parentheses that are not closed, so it'll return `False`. Otherwise, the stack is empty, meaning all parentheses have been closed, returning `True`.
 :::
 
 ## Queue
