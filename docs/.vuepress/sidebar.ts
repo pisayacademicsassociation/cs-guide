@@ -89,7 +89,8 @@ export const sidebar: SidebarOptions = {
 				{
 					text: "Stack and Queue",
 					link: "/cs5/3/adt-stack-and-queue"
-				}
+				},
+				"/cs5/3/trees"
 			]
 		},
 		{

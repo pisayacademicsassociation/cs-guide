@@ -6,13 +6,7 @@ In this section, we will be tackling two abstract data types: a **Stack** and a 
 
 ### Table of Contents
 
-- [Introduction](#introduction)
-	- [Table of Contents](#table-of-contents)
-- [What are ADTs?](#what-are-adts)
-- [Stack](#stack)
-	- [Stack Applications: Balanced Parentheses](#stack-applications-balanced-parentheses)
-- [Queue](#queue)
-- [Deque](#deque)
+[[toc]]
 
 # What are ADTs?
 

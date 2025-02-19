@@ -1,13 +1,11 @@
 import { defaultTheme } from "@vuepress/theme-default";
 import { defineUserConfig } from "vuepress/cli";
 import { markdownMathPlugin } from "@vuepress/plugin-markdown-math";
-import { prismjsPlugin } from "@vuepress/plugin-prismjs";
 import { shikiPlugin } from "@vuepress/plugin-shiki";
+import { tocPlugin } from "@vuepress/plugin-toc";
 import { viteBundler } from "@vuepress/bundler-vite";
 
 import { sidebar } from "./sidebar";
-
-const USE_PRISM = true;
 
 export default defineUserConfig({
 	lang: "en-US",
@@ -49,22 +47,14 @@ export default defineUserConfig({
 		markdownMathPlugin({
 			type: "katex"
 		}),
-		USE_PRISM
-			? prismjsPlugin({
-				themes: {
-					light: "one-light",
-					dark: "vsc-dark-plus"
-				},
-				whitespace: true,
-				notationFocus: true
-			})
-			: shikiPlugin({
-				langs: ["py", "ts", "java"],
-				themes: {
-					dark: "dark-plus",
-					light: "light-plus"
-				},
-				notationFocus: true
-			})
+		shikiPlugin({
+			langs: ["py", "ts", "java"],
+			themes: {
+				dark: "dark-plus",
+				light: "light-plus"
+			},
+			notationFocus: true
+		}),
+		tocPlugin({})
 	]
 });
