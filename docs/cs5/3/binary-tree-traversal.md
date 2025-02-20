@@ -42,7 +42,7 @@ From the order of our "green" nodes, the resulting sequence should be: H I D J E
 
 ## Level Order Traversal (Breadth-first Search)
 
-In **Level Order Traversal**, also known as **Breadth-first Search**, we create a [Queue](./adt-stack-and-queue.md#queue) that holds the nodes to be visited, and push the root node to the the **Queue**. While there is an item in the Queue, we continuously **dequeue** the current node and get all of it's child nodes and append it to the queue, in the order of left to right.
+In **Level Order Traversal**, also known as **Breadth-first Search** or **BFS**, we create a [Queue](./adt-stack-and-queue.md#queue) that holds the nodes to be visited, and push the root node to the the **Queue**. While there is an item in the Queue, we continuously **dequeue** the current node and get all of it's child nodes and append it to the queue, in the order of left to right.
 
 When there are no more child nodes, that means that the current node is a leaf, and that we've reached the end of the subtree.
 
