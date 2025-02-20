@@ -4,7 +4,7 @@
 
 Now that we've discussed Trees and how they work, what if you'd want to find a specific value in a node? For arrays, this is easy: just iterate over the array. For Stacks and Queues, just continually check if the Stack or Queue is empty and continuously `pop()` or `dequeue()`, respectively. But, what about for Trees? It looks quite complex to traverse this data structure to check for a value.
 
-In this section, we will discuss the various ways we can find for a value inside a node inside a binary tree.
+In this section, we will discuss the various ways we can traverse a binary tree.
 
 ### Table of Contents
 

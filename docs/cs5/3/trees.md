@@ -39,3 +39,8 @@ Here, we will formally define the terms used in a tree data structure for you to
 - Forest - A collection of unjoined trees. (multiple trees)
 
 <img src="./images/tree-defn.gif">
+
+<center>
+<br>
+<i>It is heavily suggested you view this image in Dark mode.</i>
+</center>
