@@ -134,7 +134,7 @@ class Catalyst extends Weapon {
 	public String damageType;
 
 	Catalyst(int damage, float range, float attackSpeed, String damageType) {
-		super(int damage, float range, float attackSpeed);
+		super(damage, range, attackSpeed);
 		this.damageType = damageType;
 	}
 
@@ -197,7 +197,7 @@ class Catalyst extends Weapon {
 	private String damageType;
 
 	Catalyst(int damage, float range, float attackSpeed, String damageType) {
-		super(int damage, float range, float attackSpeed);
+		super(damage, range, attackSpeed);
 		this.damageType = damageType;
 	}
 
@@ -234,7 +234,7 @@ class Bow extends Weapon {
 	private int drawPower = 0.25;
 
 	Bow(int damage, float range, float attackSpeed) {
-		super(int damage, float range, float attackSpeed);
+		super(damage, range, attackSpeed);
 	}
 
 	@Override
@@ -366,7 +366,7 @@ class Catalyst extends Weapon {
 
 	Catalyst(int damage, float range, float attackSpeed, String damageType) {
 		// This invokes the Weapon class constructor.
-		super(int damage, float range, float attackSpeed);
+		super(damage, range, attackSpeed);
 		this.damageType = damageType;
 	}
 
