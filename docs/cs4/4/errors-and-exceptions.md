@@ -1,31 +1,3 @@
-
-Error
-- A serious problem that a reasonable application should not try to catch
-
-Exception
-- A condition that a reasonable application might want to catch
-
-Throwable
-- Main interface of items that can be thrown
-
-Two kinds of exceptions
-- Checked exceptions
-	- Exceptions that can be found during compile time
-- Unchecked exceptions
-	- Exceptions that are found during run time (NullPointerException)
-
-Throwing an exception
-- Process of creating/generating an exception
-
-Handling an exception
-- Coding process which detects and deals with exceptions
-
-
-Custom exception
-- Exceptions created by the programmer to meet their specific requirements.
-- Created by extending the `Exception` class.
-- If you don't want to store exception details, use the default constructor. Otherwise, use a parameterized one.N
-
 # Errors and Exceptions
 
 In previous CS projects, you've learned that a program can produce an Error when something unexpected happens. In Java, this is extended further with `Exception`s. Here, there is a clear difference between an `Error` and an `Exception`.

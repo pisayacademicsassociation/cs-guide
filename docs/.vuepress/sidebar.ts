@@ -52,6 +52,12 @@ export const sidebar: SidebarOptions = {
 			]
 		},
 		{
+			text: `Quarter 4`,
+			children: [
+				"/cs4/4/errors-and-exceptions"
+			]
+		},
+		{
 			text: `Additional Information`,
 			children: [
 				"/notation",
