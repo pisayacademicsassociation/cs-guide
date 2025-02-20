@@ -19,6 +19,7 @@
     "@vuepress/plugin-theme-data": "^2.0.0-rc.70",
     "@vuepress/plugin-toc": "^2.0.0-rc.74",
     "@vuepress/theme-default": "^2.0.0-rc.73",
+    "esbuild": "^0.25.0",
     "katex": "^0.16.21",
     "sass-embedded": "^1.83.4",
     "vite": "^6.0.11",
