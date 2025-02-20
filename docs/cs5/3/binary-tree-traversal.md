@@ -40,7 +40,7 @@ Again, **blue** means the nodes that are being recursively visited, while **gree
 
 From the order of our "green" nodes, the resulting sequence should be: H I D J E B K F G C A
 
-## Level Order Traversal
+## Level Order Traversal (Breadth-first Search)
 
 In **Level Order Traversal**, also known as **Breadth-first Search**, we create a [Queue](./adt-stack-and-queue.md#queue) that holds the nodes to be visited, and push the root node to the the **Queue**. While there is an item in the Queue, we continuously **dequeue** the current node and get all of it's child nodes and append it to the queue, in the order of left to right.
 
