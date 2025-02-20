@@ -167,12 +167,3 @@ If you remembered sets from Mathematics, the symbol $\in$ means that an element 
 For example, let's take our function from before: $f(x) = x^2+4x+16$. Remember that Big O means the **upper bound** on the function. Since our function has a growth of $x^2$ (largest growing term), it's included in the set of $O(n^2)$, because $n^2$ can be an **upper bound** on the function $f(x)$. Therefore, we can say that $x^2+4x+16 \in O(n^2)$.
 
 What about $O(n) ∈ O(n^2)$? Well, this simply means if the set of functions whose upper bound is $O(n)$ can have an **upper bound** of $O(n^2)$. The answer? Yes, because $O(n^2)$ is an **upper bound**. If a function's **upper bound** is already $O(n)$, then anything greater than or equal to the growth of $O(n)$ can be an upper bound, since the only requirement is that it must not **exceed** it. If a function has an upper bound of $O(n)$, it most certainly can have an $O(n^2)$ one, because it's growth can't exceed $O(n)$ already, what more about $O(n^2)$?
-
-## Advanced Knowledge: Limit definition, Derivatives and L'Hôpital's rule
-
-::: warning
-In this section, we are going to dive deep into how the limit definition "works", using more advanced concepts such as **Derivatives** and **L'Hôpital's rule**. This information can provide a deeper understanding about how the limit definition works. However, mastering these details is not required nor included for any of our CS activities.
-
-If you are willing or eager to expand and enhance your understanding of how the limit definition works with the Big O, Big Θ and Big Ω notation, feel free to read this section. However, if you don't need to or prefer not to do so, then you are free to skip to the next section. The content included in this section is intended for people who would like to know more, and will not be a requirement for succeeding sections. 
-:::
-
