@@ -6,6 +6,10 @@ It is heavily recommended to read both the [**Classes, Objects, and Packages**](
 
 You may have heard the term "Object-Oriented Programming" before, but just what does it mean? This is one of the many programming styles that many developers use in creating various programs, ranging from tools to games, but what exactly is Object-Oriented Programming?
 
+## Table of Contents
+
+[[toc]]
+
 ## Definition of Terms
 
 Alright, I get it, you don't wanna do Research anymore, but I need to put this here as a quick reference just in case I use some terms that you may not understand.

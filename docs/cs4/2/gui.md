@@ -4,6 +4,10 @@ Up until now, we have received and returned input and output through the console
 
 GUIs are designed to make software and devices more user-friendly, and have become the standard interface for a wide range of applications, from operating systems to productivity software and games.
 
+## Table of Contents
+
+[[toc]]
+
 ## Creating a Java GUI
 
 For this section of the guide, we recommend using NetBeans (Apache NetBeans). Specifically, we will leverage NetBeans' JFrame Form Creation Tool to simplify our workload when creating GUIs.

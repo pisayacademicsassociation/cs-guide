@@ -4,6 +4,10 @@
 This page is a follow-up and assumes you know the concepts from the [**Classes, Objects, and Packages**](../2/classes-objects-packages.html) section.
 :::
 
+## Table of Contents
+
+[[toc]]
+
 ## Defining class methods
 Our classes can have various methods that a programmer may use to interact with it. Here is an example of your typical method declaration, taken from the [previous](../2/classes-objects-packages.html) section.
 ```java

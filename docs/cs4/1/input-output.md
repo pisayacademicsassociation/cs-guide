@@ -1,5 +1,9 @@
 # Input and Output
 
+## Table of Contents
+
+[[toc]]
+
 ## Output
 
 There are three ways to output to the console in Java, namely:

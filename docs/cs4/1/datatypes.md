@@ -2,6 +2,10 @@
 
 There are two types of data types in Java, primitive types and reference types.
 
+## Table of Contents
+
+[[toc]]
+
 ## Primitive data types
 
 Primitive types are types predefined by the language, are named using reserved keywords, and don't share states with other primitive values.

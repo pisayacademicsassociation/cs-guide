@@ -6,6 +6,10 @@ There are three types of control structures: branching statements, looping state
 
 A branching statement chooses between two or more possible actions, a looping statement repeats an action until a stopping condition occurs and a jumping statement/keyword transfers the program's control to a specific location in the code
 
+## Table of Contents
+
+[[toc]]
+
 ## If statement
 
 ### Syntax

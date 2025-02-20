@@ -4,6 +4,10 @@ There may be some instances where you wanted to show a quick message to the user
 
 A dialog box can be used to easily display messages, output, or even take input! To use dialog boxes, you need the `JOptionPane` class from the `javax.swing` package.
 
+## Table of Contents
+
+[[toc]]
+
 ## Taking input using a dialog box
 
 To take user input using a dialog box, you can use the `JOptionPane.showInputDialog()` method.

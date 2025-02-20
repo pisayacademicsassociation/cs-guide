@@ -1,5 +1,9 @@
 # Arrays
 
+## Table of Contents
+
+[[toc]]
+
 ## What even is an array?
 An array is a container that holds a fixed number of values of a single type. The length of an array is established when the array is created, and after creation, its length is fixed. 
 

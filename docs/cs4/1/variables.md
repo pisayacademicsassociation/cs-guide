@@ -1,5 +1,9 @@
 # Variables
 
+## Table of Contents
+
+[[toc]]
+
 ## What are variables, anyway? 
 
 Variables are parts of a program that can store and represent data.

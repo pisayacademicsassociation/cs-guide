@@ -2,6 +2,10 @@
 
 In previous CS projects, you've learned that a program can produce an Error when something unexpected happens. In Java, this is extended further with `Exception`s. Here, there is a clear difference between an `Error` and an `Exception`.
 
+## Table of Contents
+
+[[toc]]
+
 ## Errors and Exceptions: The Difference
 
 Now, what is the difference between an `Error` and an `Exception` in Java?

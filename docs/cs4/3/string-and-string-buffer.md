@@ -4,6 +4,10 @@ If you haven't noticed by now, datatypes like `int`, `char`, `long`, `etc`., hav
 
 Actually, they aren't. `String` is a **reference** data type, while `int`, `char`, `long`, `etc`. are all **primitive** data types. This is why `String` is written as `String` and not `string`, because it's actually a class! The only difference it has over the other classes is that you can create a `String` without using `new String()`, and use the literal `"` instead.
 
+## Table of Contents
+
+[[toc]]
+
 ## The String constructor
 
 The String class has multiple overloaded constructors, but we are only gonna go over three.

@@ -4,6 +4,10 @@
 This page is a follow-up and assumes you know the concepts from the [**Classes, Objects, and Packages**](../2/classes-objects-packages) section.
 :::
 
+## Table of Contents
+
+[[toc]]
+
 ## Understanding packages
 A package is a namespace containing a bundled group of related types (classes, interfaces, etc.), which make types easier to use and find, along with avoiding naming conflicts and controlling access to certain types.
 

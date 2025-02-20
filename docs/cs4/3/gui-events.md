@@ -10,6 +10,10 @@ We can do so by using Events! But, what exactly are events?
 
 Events are part of the Event-driven programming paradigm. A program on this specific paradigm relies on events to trigger certain methods that can affect the response of the program. Think of this paradigm as your human skin. Normally, when you touch something, you won't do anything. However, when your finger touches a hot surface, your skin (source) sends a signal to your brain (event), then your brain responds by immediately lifting that finger off the surface and blowing air on it (event handler).
 
+## Table of Contents
+
+[[toc]]
+
 ## What is event handling?
 
 Event handling is a process where an event handler (usually a method or function) listens and responds to a triggered event, created by a source.

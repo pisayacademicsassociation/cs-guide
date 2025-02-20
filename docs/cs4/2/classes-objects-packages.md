@@ -1,5 +1,9 @@
 # Classes, Objects, and Packages
 
+## Table of Contents
+
+[[toc]]
+
 ## What is an object?
 An object is a bundle of states and behaviors. In the real world, we can observe that dogs can have states (name, color, breed, hungry) and behaviors (barking, fetching, wagging tail). Bicycles can also have states (current gear, current pedal cadence, current speed) and behaviors (changing gear, changing pedal cadence, applying brakes).
 
