@@ -97,7 +97,9 @@ export const sidebar: SidebarOptions = {
 					link: "/cs5/3/adt-stack-and-queue"
 				},
 				"/cs5/3/trees",
-				"/cs5/3/binary-tree-traversal"
+				"/cs5/3/heaps",
+				"/cs5/3/binary-tree-traversal",
+				"/cs5/3/binary-search-tree"
 			]
 		},
 		{
