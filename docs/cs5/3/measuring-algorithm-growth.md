@@ -477,20 +477,3 @@ However, for this function, we will focus on it's alternate definition, which is
 $$n! = n \times (n - 1)!$$
 
 Our array permutation function does the exact same thing! We start with a "focus" ($n$), then generate all possible permutations without the focus ($n - 1$), adding the focus as our start after, which would be $n \times (n - 1)!$, the same as the factorial definition!
-
-<!--
-
-Keep fastest growing term
-Drop constants
-
-Let f ang g be functions of n where n is natural no denoting ssize or steps of the algorithm then
-
-f(n) = O(g(n))
-IFF
-f(n) = c.g(n)
-
-1. where tf is c from?
-2. why 2 values of n?
-3. wtf is this formula for
-
--->
