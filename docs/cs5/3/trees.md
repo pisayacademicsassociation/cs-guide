@@ -50,7 +50,7 @@ Here, we will formally define the terms used in a tree data structure for you to
 ::: tip
 All notes from this point on are in "raw format", meaning that the current explanations for them will be *pure* text, and is most likely in the *outline format* note-taking method.
 
-Sadly, due to time constraints, no visual aids or other imagery will exist as of the current moment, and will be added in a future time.
+Sadly, due to time constraints, no visual aids or other imagery will exist as of the current moment.
 :::
 
 ### Rooted and unrooted trees
