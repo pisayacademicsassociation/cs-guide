@@ -178,7 +178,7 @@ With that, the way we build our array of values will be easy to understand!
 
 If you still don't get it, perhaps a little bit of visual aids can help:
 
-<iframe width="640" height="360" class="center" src="./images/fib-final.mp4" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
+<iframe width="640" height="360" class="center" src="./images/fib-final.mp4" frameborder="0" allow="fullscreen" allowfullscreen muted></iframe>
 
 As you can see here, with every iteration, we relied on the previous two numbers of the Fibonacci sequence to compute for the current one.
 

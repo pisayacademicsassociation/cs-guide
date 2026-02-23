@@ -61,8 +61,6 @@ def binary_search(array, target) -> int:
 
 It's quite hard to see on paper, but the giveaway here is both `right = mid - 1`, `left = mid + 1`, and `mid = (left + right) // 2`. `right` and `left` represent whats "left" of the array, while `mid` would be the "split".
 
-<!-- Perhaps some visual aids can help again: <insert "math edit" of the binary search "split"> -->
-
 ## Linear time functions: $O(n)$
 
 In linear time, or $O(n)$, the function's time complexity depends on the input size. Algorithms like these tend to iterate over the input, like an array. A great example is linear search. 
@@ -453,10 +451,7 @@ We create permutations on the remaining elements, combining every single permuta
 
 If you still don't get the algorithm's concept, perhaps a little bit of visual aids can help:
 
-<video controls width="640" height="360" class="center">
-  <source src="./images/permutations-final.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe width="640" height="360" class="center" src="./images/permutations-final.mp4" frameborder="0" allow="fullscreen" allowfullscreen autoplay=false></iframe>
 
 Now that you get how the algorithm works, it's time to explain *why* it's $O(n!)$
 
